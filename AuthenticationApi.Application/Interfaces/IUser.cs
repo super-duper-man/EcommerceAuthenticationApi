@@ -7,6 +7,6 @@ namespace AuthenticationApi.Application.Interfaces
     {
         Task<Response> Register(AppUserDto appUserDto);
         Task<Response> Login(LoginDto loginDto);
-        Task<AppUserDto> GetUser(int userId);
+        Task<GetUserDto> GetUser(int userId);
     }
 }
