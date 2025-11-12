@@ -17,7 +17,7 @@ namespace AuthenticationApi.Presentation.Controllers
 
             var result = await userInterface.Register(userDto);
 
-            return result.Flag ? Ok(result) : BadRequest(Request);
+            return result.Flag ? Ok(result) : BadRequest(result);
         }
 
         [HttpPost("Login")]
