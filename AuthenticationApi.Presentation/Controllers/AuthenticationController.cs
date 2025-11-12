@@ -1,5 +1,6 @@
 ﻿using AuthenticationApi.Application.Dtos;
 using AuthenticationApi.Application.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Resource.Share.Lib.Responses;
 
@@ -7,6 +8,7 @@ namespace AuthenticationApi.Presentation.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [AllowAnonymous]
     public class AuthenticationController(IUser userInterface) : ControllerBase
     {
         [HttpPost("Register")]
@@ -33,6 +35,7 @@ namespace AuthenticationApi.Presentation.Controllers
         }
 
         [HttpGet("{id:int}")]
+        [Authorize]
         public async Task<ActionResult<GetUserDto>> GetUser(int id)
         {
             if(id <= 0)
