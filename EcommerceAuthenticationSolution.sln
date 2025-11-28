@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36109.1 d17.14
+VisualStudioVersion = 17.14.36109.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationApi.Domain", "AuthenticationApi.Domain\AuthenticationApi.Domain.csproj", "{432DC413-9F1B-486B-96F1-AA2F698C054A}"
 EndProject
@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationApi.Applicati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationApi.Presentation", "AuthenticationApi.Presentation\AuthenticationApi.Presentation.csproj", "{06346135-DE44-42A5-9031-13D88FA5648E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resource.Share.Lib", "..\SharedResourceSolution\Resource.Share.Lib\Resource.Share.Lib.csproj", "{F1C918E6-5CC5-D6E0-86F4-C57FB9480F76}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resource.Share.Lib", "..\CoreEccomerceMicroService\Resource.Share.Lib\Resource.Share.Lib.csproj", "{A43FD4C2-DF60-E63C-B370-064638E6F581}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{06346135-DE44-42A5-9031-13D88FA5648E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06346135-DE44-42A5-9031-13D88FA5648E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06346135-DE44-42A5-9031-13D88FA5648E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F1C918E6-5CC5-D6E0-86F4-C57FB9480F76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F1C918E6-5CC5-D6E0-86F4-C57FB9480F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F1C918E6-5CC5-D6E0-86F4-C57FB9480F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F1C918E6-5CC5-D6E0-86F4-C57FB9480F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A43FD4C2-DF60-E63C-B370-064638E6F581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A43FD4C2-DF60-E63C-B370-064638E6F581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A43FD4C2-DF60-E63C-B370-064638E6F581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A43FD4C2-DF60-E63C-B370-064638E6F581}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
